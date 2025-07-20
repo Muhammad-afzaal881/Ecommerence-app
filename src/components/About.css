@@ -1,0 +1,33 @@
+.session-info {
+  max-width: 850px;
+  margin: 60px auto;
+  padding: 40px 50px;
+  background: linear-gradient(135deg, #ffffff, #f9f9f9);
+  border-radius: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.session-info:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.session-info h2 {
+  color: #1d3557;
+  font-size: 32px;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #007bff;
+  padding-bottom: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.session-info p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 15px;
+}
+
